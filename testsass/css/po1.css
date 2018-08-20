@@ -1,0 +1,108 @@
+.header {
+  background-color: #000; }
+  .header .navbar {
+    margin-bottom: 0px; }
+
+.imagelogo {
+  float: left; }
+
+.Banner {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/banner.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  margin-top: 0px;
+  background-repeat: no-repeat; }
+  .Banner .headbanner {
+    margin-top: 0px;
+    padding-top: 200px;
+    font-size: 60px;
+    font-family: bold; }
+  .Banner .parabanner {
+    background-color: gold;
+    color: black; }
+
+.sectionhead {
+  color: #827979;
+  font-size: 60px; }
+
+.section1 {
+  text-align: center; }
+  .section1 .box1 {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #5cb85c; }
+  .section1 .box2 {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #5bc0de; }
+  .section1 .box3 {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f0ad4e; }
+  .section1 .box4 {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #d9534f; }
+
+.bannertext {
+  text-align: center;
+  color: white;
+  font-size: 20px; }
+
+.header .navbar {
+  color: white;
+  margin-bottom: 0px; }
+  .header .navbar .navitems {
+    margin-top: 20px;
+    padding-left: 800px; }
+    .header .navbar .navitems.navitems li {
+      display: inline-block;
+      padding-right: 50px; }
+
+.footer {
+  background-color: #000;
+  color: white;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 30px; }
+  .footer p {
+    margin-bottom: 0px;
+    text-align: center; }
+
+.navbarmob {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  .navbarmob {
+    display: block; }
+    .navbarmob.navbarmob li {
+      border: 2px solid white; }
+
+  .sectionhead {
+    margin-left: 10px; }
+
+  .Banner {
+    height: 200px; }
+    .Banner .bannertext .headbanner {
+      margin-top: 20px;
+      padding-top: 30px;
+      font-size: 45px; }
+    .Banner .bannertext .parabanner {
+      background-color: transparent;
+      color: white; }
+
+  .navitems {
+    display: none; }
+
+  .navitemsmob {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0px;
+    text-align: center; } }
+
+/*# sourceMappingURL=po1.css.map */

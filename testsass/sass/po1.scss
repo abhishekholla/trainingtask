@@ -1,0 +1,67 @@
+@import 'bootstrap/_variables';
+@import 'bootstrap/_header';
+@import 'bootstrap/_Banner';
+@import 'bootstrap/_bannertxt';
+@import 'bootstrap/_navbar';
+@import 'bootstrap/_footer';
+
+.navbarmob
+{
+display: none;
+}
+
+
+@media screen and (max-width:$screen-md)
+{
+
+
+    .navbarmob{
+        display: block;
+        &.navbarmob li{
+            border: 2px solid $text-color;
+        }
+    }
+    .sectionhead
+    {
+        margin-left: 10px;
+    }
+
+    .Banner
+    {
+      height: 200px;
+        .bannertext
+        {
+            .headbanner
+            {
+                margin-top: 20px;
+            padding-top: 30px;
+            font-size: 45px;
+            }
+            .parabanner{
+                background-color:transparent;
+                color:$text-color;
+            }
+         }
+    }
+
+.navitems{
+    display: none;
+}
+
+.navitemsmob{
+color: $text-color;
+background-color: $gray-base;
+display: inline-block;
+list-style-type: none;
+width: 100%;
+padding-left: 0px;
+text-align: center;
+}
+
+
+}
+@media screen and (min-width:768px) and (max-width:991px){
+.navitems{
+    padding-left: 0px;
+}
+}

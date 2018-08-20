@@ -1,0 +1,24 @@
+$text-color:white;
+
+.header
+{
+  
+      .navbar
+      {
+          color: $text-color;
+          margin-bottom: 0px;
+
+              .navitems
+              {
+                margin-top: 20px;
+                padding-left: 800px;
+
+                &.navitems li
+                {
+                  display: inline-block;
+                  padding-right: 50px;
+                }
+              }  
+          
+      }
+}
