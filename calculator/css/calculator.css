@@ -1,0 +1,59 @@
+.calci{
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#inputbox1{
+    background-color: #31384B;
+    width: 100%;
+    height: 120px;
+    text-align: right;
+    color: #9c9faa;
+    font-size: 30px;
+    border: none;
+    margin-top: 30px;
+}
+#outputbox2{
+        background-color: #31384B;
+        width: 100%;
+        height: 80px;
+        color: white;;
+        font-size: 40px;
+        font-family: bold;
+        border: none;
+        text-align: right;
+    
+}
+#esum{
+    font-size: 40px;
+    font-family: bold;
+    background-color: #31384B;
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero,#deci{
+    width: 100%;
+    height: 90px;
+    background-color: #F4F5F9;
+    font-family: bold;
+    font-size: 40px;
+
+}
+#eqi{
+    width: 100%;
+    height: 90px;
+    background-color:#E93f49; 
+    color: white;
+    font-size: 40px;
+}
+#ac,#plusmin,#mod,#mul,#subt,#divd,#plus{
+    width: 100%;
+    height: 90px;
+    background: color #dcdfe6; 
+    font-size: 40px;
+}
+
+

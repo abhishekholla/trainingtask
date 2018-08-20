@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/calculator.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<form name="Calc">
+<div class="container">
+
+        <div class="calci">
+        <div class="col-xs-12">
+
+<div class="row">
+    <input id="inputbox1" type="text" name="Input" placeholder="0" size="100000">
+    
+</div>
+<div class="row">
+    <div class="col-xs-2" id="esum">=</div>
+    <div class="col-xs-10">
+        <div class="row">
+    <input id="outputbox2" type="text" name="final" placeholder="0">
+</div>
+</div>
+</div>
+
+<!--row1-->
+
+<div class="row">
+   
+    <div class="col-xs-3">
+        <div class="row">
+                <input id="ac" type="button" name="one" value="AC" onClick="Allclear()" >
+            </div>
+    </div>
+    <div class="col-xs-3">
+            <div class="row">
+                    <input id="plusmin" type="button" name="one" value=" +/- " onClick="Calc.Input.value += '+/-'">
+    </div>
+    </div>
+    <div class="col-xs-3">
+            <div class="row">
+                    <input id="mod" type="button" name="one" value=" % " onClick="Calc.Input.value += '%'">
+    </div>
+    </div>
+    <div class="col-xs-3">
+            <div class="row">
+                    <input id="mul" type="button" name="one" value="  *  " onClick="Calc.Input.value += '*'">
+    </div>
+    </div>
+</div>
+
+
+<!---row2-->
+
+<div class="row">
+        <div class="col-xs-3">
+            <div class="row">
+                    <input id="seven" type="button" name="seven" value="  7  " onClick="Calc.Input.value += '7'">
+        </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="eight" type="button" name="eight" value="  8  " onClick="Calc.Input.value += '8'">
+                    </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="nine" type="button" name="nine" value="  9  " onClick="Calc.Input.value += '9'">
+                    </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="divd" type="button" name="divd" value="  /  " onClick="Calc.Input.value += '/'">
+                    </div>
+        </div>
+    </div>
+
+    <!---row3-->
+
+<div class="row">
+        <div class="col-xs-3">
+            <div class="row">
+                    <input id="four" type="button" name="four" value="  4  " onClick="Calc.Input.value += '4'">
+        </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="five" type="button" name="five" value="  5  " onClick="Calc.Input.value += '5'">
+                    </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="six" type="button" name="six" value="  6  " onClick="Calc.Input.value += '6'">
+                    </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="subt" type="button" name="subt" value="  -  " onClick="Calc.Input.value += '-'">
+                    </div>
+        </div>
+    </div>
+
+    <!---row4-->
+
+<div class="row">
+        <div class="col-xs-3">
+            <div class="row">
+                    <input id="one" type="button" name="one" value="  1  " onClick="Calc.Input.value += '1'">
+        </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="two" type="button" name="one" value="  2  " onClick="Calc.Input.value += '2'">
+                    </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="three" type="button" name="two" value=" 3 " onClick="Calc.Input.value += '3'">
+                    </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="plus" type="button" name="plus" value=" + " onClick="Calc.Input.value += '+'">
+                    </div>
+        </div>
+    </div>
+
+    <!---row5-->
+
+<div class="row">
+        <div class="col-xs-6">
+            <div class="row">
+                    <input id="zero" type="button" name="zero" value=" 0 " onClick="Calc.Input.value += '0'">
+        </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="deci" type="button" name="deci" value="  .  " onClick="Calc.Input.value += '.'">
+                    </div>
+        </div>
+        <div class="col-xs-3">
+                <div class="row">
+                        <input id="eqi" type="button" name="eqi" value="  =  " onClick="calculation()">
+                    </div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+</form>
+<!--row5-->
+<script>
+
+             /* Author :ANUSH G
+                Date : 10-08-2018
+                Description : Calculator*/
+
+              
+                function Allclear() //clear screen
+                {
+                  document.getElementById('inputbox1').value = "";
+                  document.getElementById('outputbox2').value = "0";
+                }
+            
+            
+                function numbers(str) //str is just an empty string used to store values from the input box
+                {
+                  document.getElementById('inputbox1').value += str; //get the input values and store it in the str
+                 }
+
+
+                  function array1(input_string) {
+                    var calculationarray = [],current = ''; //empty array and empty string
+                    for (var i = 0, ch; ch = input_string.charAt(i); i++) {
+                      if ('%*/+-'.indexOf(ch) > -1) {
+                        if (current == '' && ch == '-') { // check if first element is '-'
+                          current = '-';
+                        } else {
+                                calculationarray .push(parseFloat(current), ch); //convert into float and push into an array
+                          current = ''; //empty the string after push
+                        }
+                      } else {
+                        current += input_string.charAt(i); //check all the numbers
+                      }
+                    }
+                    if (current != '') {
+                        calculationarray .push(parseFloat(current)); //push the elments in the current
+                    }
+                    return calculationarray ;
+                  }
+
+
+                function calculation() {
+                  var result = array1(document.getElementById('inputbox1').value);
+                  while (result.length > 1) {
+                    var operand1 = result.shift(); //shift first element in the array
+                    var operator = result.shift(); //shift operator in the array
+                    var operand2 = result.shift(); //shift second element in the array
+                    var output;
+                    switch (operator) {
+                      case "*": output = operand1 * operand2; //mul
+                                result.unshift(output);
+                                break;
+                      case "/": output = operand1 / operand2; //div
+                                result.unshift(output);
+                                 break;
+                      case "+": output = operand1 + operand2; //add
+                                result.unshift(output);
+                                break;
+                      case "-": output = operand1 - operand2; //sub
+                                result.unshift(output);
+                                break;
+                      case "%": output = operand1 % operand2; //mod
+                                result.unshift(output);
+                                break;
+            
+                    }
+                  }
+                  document.getElementById('outputbox2').value = result;//final result
+                }
+
+              </script>
+</body>
+</html>
