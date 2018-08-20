@@ -1,0 +1,59 @@
+.Banner
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/banner.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+ 
+    .headbanner
+    {
+        margin-top: 0px;
+        padding-top: 200px;
+        font-size: 60px;
+        font-family: bold;
+    }
+    .parabanner{
+        background-color:gold;
+        color:black;
+    }
+    
+}
+
+
+.sectionhead{
+    color: #827979;
+    font-size: 60px;
+}
+.section1
+{
+ text-align: center;
+    .box1
+    {
+        box-sizing: border-box;
+        padding: 10px;
+        background-color: $brand-success;
+    }
+        .box2
+        {
+            box-sizing: border-box;
+            padding: 10px;
+            background-color: $brand-info;
+        }
+            .box3
+            {
+                box-sizing: border-box;
+                padding: 10px;
+                background-color: $brand-warning;
+
+            }
+                .box4
+                {
+                    box-sizing: border-box;
+                    padding: 10px;
+                    background-color: $brand-danger;
+                }
+
+}

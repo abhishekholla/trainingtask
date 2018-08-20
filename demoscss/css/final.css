@@ -1,0 +1,276 @@
+.top{
+    color: #7c8993;
+}
+.navshop{
+position: relative;
+margin-top: 20px;
+border: 1px solid transparent;
+margin-left: 50px;
+}
+
+.newarr{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+}
+.textbox{
+    text-align:center;
+    background-color: white;
+    padding: 20px;
+}
+
+.items b{
+    padding-left: 18px;
+}
+.items:hover{
+    color:red;
+}
+.searchbar{
+    margin-top: 11px;
+    background-color: #f5f5f5;
+    border: 1px solid white;
+    width: 300px;
+    height:38px;  
+}
+.notify{
+    background-color: white;
+margin-top: 20px;
+margin-left: 10px;
+}
+.body{
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    height: 2120px;
+}
+
+.roundclr1{
+    background-color: #5674b9;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+.roundclr2{
+    background-color: #7accc8;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+.roundclr3{
+    background-color: #92278f;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+.roundclr4{
+    background-color: #3cb878;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+.roundclr5{
+    background-color:#8560a8;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+.roundclr6{
+    background-color: #ffffff;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+    border: 1px solid black;
+}
+.roundclr7{
+    background-color: #f68e56;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+.roundclr8{
+    background-color: #ed1c24;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+.roundclr9{
+    background-color: #f06eaa;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+}
+
+aside{
+    margin-top: 10px;
+    height:2100px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.asidebox{
+    padding-left: 0px;
+    box-shadow: 0px 2px 2px 2px;
+}
+.banner{
+    height:220px;
+    width: 100%;
+    padding-right: 2px;
+}
+
+.aside3{
+    margin-top: 5px;
+    background-color: #ffffff;
+    height: 385px;
+}
+
+.banner1    {
+  min-height: 130px;
+    width: 100%;
+    padding-right: 2px;
+}
+
+.labels{
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+}
+.viewall{
+    float:right;
+    font-size:18px;
+    color: red;
+}
+
+.aside1{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+}
+.title{
+    line-height: 35px;
+}
+
+.aside2{
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 5px;
+    background-color: white;
+}
+.title{
+    line-height: 35px;
+}
+
+
+
+.foot-row-1{
+    padding: 30px 0px;
+    border-bottom: 2px solid $gray-lighter;
+   .row1-border{
+       border-right: 1px solid $gray-lighter;
+   .foot-row-1-img{
+       width:40px;
+   }  
+}
+}
+.foot-row-2{
+}
+   .foot-row-2-border{
+       border-right:2px solid $gray-lighter;
+       height:70%;}
+   ul{
+       li{
+        color:$gray-light;
+       }
+       li:hover{
+           color:$brand-danger;
+          }
+   }
+   .foot-2-last{
+       ul{
+           li{
+               display: inline;
+               padding: 5px;
+           }
+       }
+   }
+}
+.row-2-right{
+   .row-2-right-first{
+       padding-bottom:50px;
+   .form-size{
+       padding:20px 30px;
+       width:100%;
+   }
+   .addon-back{
+       width:40px;
+       background-color: black;
+       color:white;
+   }
+   .addon-back:hover{
+       width:60px;
+       background-color: $brand-danger;
+       color: black;
+   }
+   .fa-footer{
+       font-size:20px;
+   }
+   
+}
+.row-2-right-second{
+   padding-bottom: 30px;
+   ul{
+       li{
+           display: inline;
+       }
+   }
+}
+.row-2-right-third{
+   padding-bottom: 30px;
+}
+.row-2-right-third    li{
+           display: inline;
+           padding: 10px;}
+
+           .row-2-right-third    li     a{
+               color:black;}
+
+   .fa-footer1{
+       font-size:24px;
+       color:$gray-light;
+   }
+   .fa-footer1:hover{
+       font-size:24px;
+       color:$brand-danger;
+   }
+}
+
+}
+}
+.foot-row-3{
+   border-top:2px solid $gray-lighter;
+   .foot-tag{
+       display: inline-block;
+       padding-top: 20px;
+   }
+   .last-list{
+       padding-top:20px;
+   ul{
+         li{
+           display: inline;
+           padding: 10px;
+           a{
+               text-decoration: none;
+               color:$gray-light;
+           }
+       }
+   }
+}
+.last-list{
+   ul{
+         li{
+           display: inline;
+           padding: 10px;
+           a:hover{
+               text-decoration: none;
+               color:$brand-danger;
+           }
+       }
+   }
+}
+}

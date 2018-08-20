@@ -1,0 +1,163 @@
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: red;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    appearance: none;
+    width: 25px;
+    height: 10px;
+    background:rgb(233, 24, 77);
+    cursor: pointer;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+
+
+
+
+.foot-row-1{
+    padding: 30px 0px;
+    border-bottom: 2px solid #E8E8E8;
+   .row1-border{
+       border-right: 1px solid #E8E8E8;
+   .foot-row-1-img{
+       width:40px;
+   }  
+}
+}
+.foot-row-2{
+   margin-top:30px;
+   .foot-row-2-border{
+       border-right:2px solid #E8E8E8;
+       height:70%;
+   ul{
+       li{
+        color:#E8E8E8;
+       }
+       li:hover{
+           color:red;
+          }
+   }
+   .foot-2-last{
+       ul{
+           li{
+               display: inline;
+               padding: 5px;
+           }
+       }
+   }
+}
+.row-2-right{
+   .row-2-right-first{
+       padding-bottom:50px;
+   .form-size{
+       padding:20px 30px;
+       width:100%;
+   }
+   .addon-back{
+       width:40px;
+       background-color: black;
+       color:white;
+   }
+   .addon-back:hover{
+       width:60px;
+       background-color: red;
+       color: black;
+   }
+   .fa-footer{
+       font-size:20px;
+   }
+   
+}
+.row-2-right-second{
+   padding-bottom: 30px;
+   ul{
+       li{
+           display: inline;
+       }
+   }
+}
+.row-2-right-third{
+   padding-bottom: 30px;
+   ul{
+       li{
+           display: inline;
+           padding: 10px;
+           a{
+               color:black;
+           }
+       }
+   }
+   .fa-footer1{
+       font-size:24px;
+       color:#E8E8E8;
+   }
+   .fa-footer1:hover{
+       font-size:24px;
+       color:red;
+   }
+}
+
+}
+}
+.foot-row-3{
+   border-top:2px solid #E8E8E8;
+   .foot-tag{
+       display: inline-block;
+       padding-top: 20px;
+   }
+   .last-list{
+       padding-top:20px;
+   ul{
+         li{
+           display: inline;
+           padding: 10px;
+           a{
+               text-decoration: none;
+               color:#E8E8E8;
+           }
+       }
+   }
+}
+.last-list{
+   ul{
+         li{
+           display: inline;
+           padding: 10px;
+           a:hover{
+               text-decoration: none;
+               color:red;
+           }
+       }
+   }
+}
+}
+
+
+
+
+
+
