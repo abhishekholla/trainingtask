@@ -1,0 +1,315 @@
+.EECP,.EECPtreatment,.EECPmech,.EECPfeature{
+    background-color: #1968b7;
+    width: 600px;
+    height: 40px;
+    color: white;
+    font-family: swisfont;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 130px;
+    position: absolute;
+    padding-top: 5px;
+}
+
+.top{
+    display: none;
+}
+
+.footmob2{
+    display: none;
+}
+.mobilebenifit{
+    display: none;
+}
+
+.EECPbox,.EECPtreatmentbox,.EECPmechbox,.EECPfeaturebox{
+    border:1px solid black;
+    box-sizing: border-box;
+    padding: 50px 15px 15px 15px;
+    margin-top: 18px;
+    font-size: 16px;
+    margin-left: 30px;
+
+}
+
+.fullboxMOB{
+    display: none;
+}
+
+.EECPmechbox{
+    border:1px solid black;
+    height: 400px;
+}
+
+.contactnumber{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 600px;
+}
+
+.box2head{
+    color: #1968b7;
+    text-align: center;
+    font-size: 21px;
+    font-family: swisfont;
+    padding: 10px;
+    border:1px solid black;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.box2{
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.benifits2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.textclr{
+    font-family:bold;
+    color: blue;
+}
+.textclr3{
+    font-family: bold;
+    color: blue;
+    margin-top: 20px;
+}
+
+.featureimg{
+    display: block;
+    margin: auto;
+}
+
+.featurebox1{
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #1968b7;
+    border:1px solid #1968b7;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.mediatext{
+    padding-top: 30px;
+    color: white;
+}
+.mediaimg{
+    padding: 20px 5px 5px 30px;
+}
+
+.endfooter{
+    color: white;
+    background-color: black;
+    height: 60px;
+}
+.Rights{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.Enquirytop{
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.fullbox{
+    margin-left: 950px;
+    margin-top: -480px;
+     position: fixed;
+}
+
+.greybox{
+    background-color:#484845;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    margin-top:28px;
+}
+.inputarea{
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.inputarea1{
+    width: 320px;
+    padding: 0px 0px 25px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+ 
+}
+
+.inputarea2{
+    width: 320px;
+    padding: 0px 0px 25px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.inputarea3{
+    width: 320px;
+    padding: 0px 0px 25px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.inputarea4{
+    width: 320px;
+    height: 130px;
+    padding: 0px 0px 25px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.inputsubmit{
+    padding:7px;
+    margin-top: 25px;
+    margin-left:130px;
+}
+
+@media screen and (max-width: 767px)
+{
+
+*{
+    border: none;
+}
+
+.image{
+width: 100%;
+height: 225px;
+}
+
+.EECPtreatment,.EECPmech,.EECPfeature{
+    width: 93%;
+    padding-left: 0px;
+    margin-left: 0px;
+        font-size: 15px;
+ margin-top: 10px;      
+}
+
+.EECP{
+     margin-top: 500px;
+      width: 93%;
+    padding-left: 0px;
+    margin-left: 0px;
+        font-size: 15px;
+}
+
+.EECPbox{
+        width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px; 
+margin-top: 540px;
+       box-sizing: border-box;
+       padding: 5px;
+}
+
+
+.EECPmechbox,.EECPfeaturebox{
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px; 
+margin-top: 10px;
+text-align: center;
+}
+.EECPtreatmentbox{
+        width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px; 
+margin-top: 10px;
+
+}
+
+.contactnumber{
+    margin-top: -50px;
+    margin-left: 190px;
+    width: 90px;
+    height: 40px;
+}
+.box2{
+    
+    display: none;
+}
+
+.greybox{
+    background-color: grey;
+width: 100%;
+}
+
+.mobilebenifit{
+    box-sizing: border-box;
+    padding: 5px;
+    display: block;
+
+}
+
+.box2head{
+    border:1px solid black;
+     width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px; 
+    height: 900px;
+}
+.EECPmechbox{
+    height: 750px;  
+}
+
+.EECPfeaturebox{
+    width:100%;
+
+}
+.EECPfeature{
+    width: 93%;
+}
+
+
+.footer{
+    display: none;
+
+}
+.footmob2{
+    display: block;
+
+}
+.footmob{
+    position: relative;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.top{
+    display: block;
+}
+.footmob1{
+    background-color: white;
+}
+.footmob1number{
+    margin:10px 10px 10px 80px ;
+}
+.fullbox{
+    display: none;
+}
+.fullboxMOB{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.nhfooter{
+       box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+}
