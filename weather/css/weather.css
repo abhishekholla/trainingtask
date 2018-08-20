@@ -1,0 +1,100 @@
+body{
+    background-color: blueviolet;
+}
+.main-div{
+
+    margin: 60px auto;
+    box-shadow: 10px 5px 10px 10px;
+}
+
+.currenttemp{
+    background-color: blue;
+    color: white;  
+    width: 100%;
+    height: 400px;  
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center; 
+}
+
+.currentlocation{
+    background-image: url("../images/location.jpg");
+    width: 100%;
+    height: 400px;  
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 30px; 
+}
+.row2content{
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    color: blue;
+
+}
+.location{
+    font-size: 30px;
+    line-height: 0px;
+
+}
+.cities{
+    border: none;
+    background: transparent;
+}
+.wishes{
+    font-size: 25px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    text-align: center;
+}
+#curr-ltemp,#curr-htemp{
+    font-size: 30px;
+}
+#curr-ltemp1,#curr-htemp1,#curr-ltemp2,#curr-htemp2,#curr-ltemp3,#curr-htemp3,#curr-ltemp4,#curr-htemp4,#curr-ltemp5,#curr-htemp5,#curr-ltemp6,#curr-htemp6{
+    /* position: absolute; */
+    font-size: 20px;
+}
+.temp{
+    position: absolute;
+    bottom: 20px;
+    left: 150px; 
+}
+.temp1{
+    position: absolute;
+    top: 170px;
+    left: 70px; 
+}
+/* #weather-img1,#weather-img2,#weather-img3,#weather-img4,#weather-img5,#weather-img6{
+    position: absolute;
+    margin-top: 50px;  
+} */
+#image1{
+    height: 180px;
+    width: 150px;
+    }
+    #image2{
+        height: 100px;
+        width: 111px;
+        }
+        #image3{
+            height: 100px;
+            width: 111px;
+            }
+            #image4{
+                height: 100px;
+                width: 111px;
+                }
+                #image5{
+                    height: 100px;
+                    width: 111px;
+                    }
+                    #image6{
+                        height: 100px;
+                        width: 100px;
+                        }
+                        #image7{
+                            height: 100px;
+                            width: 111px;
+                            }
+       
