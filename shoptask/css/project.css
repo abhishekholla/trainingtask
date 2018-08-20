@@ -1,0 +1,306 @@
+/*  HEADER */
+
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: red;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    appearance: none;
+    width: 25px;
+    height: 10px;
+    background:blue;
+   ;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+/*****************/
+.header{
+    background-color: black;
+    color: white;
+}
+
+.hr2{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid grey;
+}
+
+.header-email{
+    padding-top: 15px;
+}
+
+ .email-top-pad{
+    padding-top: 26px;
+ }
+
+.header-items{
+    margin-bottom: 0px;
+}
+
+
+.header-items .item2{
+    background-color: red;
+    height: 10px;
+    padding-bottom: 0px;
+
+}
+
+.top-cart.glypicon{
+    top: -5px;
+}
+.top-account .glypicon{
+    top: -5px;
+}
+.search{
+    background-color: black;
+    border:none;
+    padding-top: 8px;
+    /* padding-left:99px ; */
+    margin-left:90px;
+}
+
+.hr1{
+
+    background-color: white;
+    color: white;
+    border: solid 1px white;
+    height: 1px;
+    width: 30px;
+    margin-top: 5px;
+
+}
+
+
+.hr3{
+
+    background-color: black;
+    color: black;
+    border: solid 1px black;
+    height: 1px;
+    width: 30px;
+    margin-top: 5px;
+
+}
+
+
+/* shruthi */
+
+
+.header2{
+           background-color: black;
+
+}
+.logo {
+    margin-left:60px;
+    padding:20px;
+    width:200px;
+}
+.navbar-nav {
+    margin-top:10px;
+    margin-left:50px;
+}
+
+a {
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: red;
+    background-color: black;
+}
+
+  ol a:hover{
+    color: red;
+    background-color:  white;
+    text-decoration: none;
+}
+
+
+/* shruthi */
+/* HEADER END */
+
+ol li a{
+
+    color: black;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+
+color: red;
+}    
+/* addd */
+
+
+footer ul li a:hover{
+    color: red;
+    background-color: black;
+    text-decoration: none;
+}
+.media-body{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: bold;
+        
+}
+.media-body a:hover{
+     color:red;
+     background-color:black;
+     text-decoration: none;
+}
+
+
+.box-last-box1:hover{
+    background:red;
+    border:2px solid red;
+    color:white;
+}  
+
+.box-last-box1{
+    border: 2px solid white;
+}  
+.box-last-box1 a{
+    color:white;
+    text-decoration:none;
+    } 
+/* added 2*/
+
+
+
+.con {
+    position:relative;
+}   
+.image {
+    position: relative;
+}
+.hero {
+     position: absolute;
+          top:200px;
+    margin-left:240px;
+}
+.box-last-box5{
+
+    color:white;
+    font-size: 80px;
+    font-weight: 800px;
+    float: left;
+    padding:10px;
+}
+.box-last-box6{
+
+
+    color:white;
+    font-size: 30px;
+    font-family: bold;
+    left:260px;
+    top:200px;
+    margin-top: 33px;
+    line-height: 30px;
+    padding-left:5px;
+}
+.box-last-box7{
+    border:2px solid red;
+    text-decoration: none;
+    color:white;
+    float:left;
+    padding:10px;
+  font-size: 20px;
+  background: red;
+}
+
+.box-last-box8{
+    border:2px solid white;
+    text-decoration: none;
+    color:white;
+    float:left;
+    padding:10px;
+  font-size: 20px;
+  margin-left: 67px;
+}
+
+
+li{
+    list-style-type: none;
+}
+.box-last-box8:hover{
+    background:red;
+border:2px solid red;
+}
+
+@media screen and (max-width: 767px)
+{
+.top-account{
+    width: 100%;
+}
+.top-cart{
+    width: 100%;
+}
+.box-last-box7{
+
+}
+.box-last-box7{
+    margin-left: 0px;
+}
+.shopbox{
+    margin-left:-100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.head{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    padding-top: 5px;
+}
+#input{
+    float: left;
+    color: white;
+    width: 12px;
+    padding-top: 10px;
+
+}
+#search{
+    background-color: black;
+
+}
+#account{
+    float: left;
+    color: white;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100px;
+
+
+}
+#cart{
+    float: left;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+}
