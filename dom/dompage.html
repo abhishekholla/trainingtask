@@ -1,0 +1,96 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dom page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/dom.css" />
+</head>
+<body>
+    <section id="main">
+
+
+    </section>
+
+
+
+
+
+
+<script>
+
+    /*author : anush
+     date :11.08.2018*/
+
+var a=["HOME","STYLE DEMO","FULL WIDTH","DROPDOWN","PORTFOLIO","GALLERY"] //navigation items
+
+var ele=document.getElementsByTagName("BODY")[0]; //body background
+ele.style.background="grey";
+
+var ele8=document.createElement("DIV");
+ele8.style.background="green";
+ele.appendChild(ele8);
+ele8.classList.add("header");
+
+var section=document.getElementById("main");
+section.classList.add("heading");
+
+
+var ele1=document.createElement("DIV");
+section.appendChild(ele1)
+ele1.innerHTML="THE MODERNIST";
+ele1.classList.add("moderist");
+
+var ele2=document.createElement("P");
+ele1.appendChild(ele2)
+ele2.style.fontSize="30px;"
+ele2.innerHTML="free psd templete";
+ele2.classList.add("psd");
+
+var navigation=document.createElement("DIV");
+section.appendChild(navigation);
+navigation.classList.add("menus");
+ var nav=document.createElement("UL");
+navigation.appendChild(nav);
+for(i=0;i<6;i++){
+var link1=document.createElement("LI");
+nav.appendChild(link1);
+link1.innerHTML=a[i];
+link1.classList.add("links");
+}
+
+
+
+var ele3=document.createElement("DIV");
+section.appendChild(ele3)
+ele3.style.color="white";
+ele3.style.fontSize="20px;"
+ele3.innerHTML="Cursus penati saccum nulla.";
+ele3.classList.add("left-content");
+
+
+var ele4=document.createElement("DIV");
+section.appendChild(ele4)
+ele4.innerHTML="Nullamlacus dui ipsum conseque loborrtis non euisque morbi penas dapibulum orna.Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feuglat adipiscinia pellentum leo.";
+ele4.classList.add("para");
+
+var ele5=document.createElement("DIV");
+section.appendChild(ele5)
+ele5.innerHTML="see more>>";
+ele5.classList.add("button");
+
+
+var ele6=document.createElement("DIV");
+section.appendChild(ele6)
+ele6.style.color="white";
+ele6.style.fontSize="20px;"
+ele6.classList.add("image");
+</script>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,112 @@
+body{
+	background-color: #696969;
+	height:100%;
+	font-family: Georgia;
+	margin:0;
+	padding:0;
+}
+.header{
+	background-color: #61D08C;
+	height:10px;
+	width:100%;
+}
+.heading{
+	margin-left: 50px;
+	margin-top:60px;
+	float:left;
+}
+
+.moderist{
+	padding-left: 50px;
+	font-size: 36px;
+	color:white;
+	margin: 2px 5px;
+}
+.psd{
+	margin: 2px 5px;
+	margin-left: 10px;
+	font-size: 15px;
+	color:white;
+}
+
+.menus{
+	position:absolute;
+	font-size:18px;
+	top: 70px;
+	margin-left:460px;
+}
+nav ul{
+    margin-top: 0px;
+}
+nav ul li{
+    color:white;
+    display: inline-block;
+    list-style-type: none;
+	margin-left:35px;
+}
+.links{
+	text-decoration: none;
+	color:white;
+	display: inline-block;
+	padding:10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.links:hover{
+	background-color:#61D08C;
+}
+
+.left-content
+{
+	margin-left: 150px;
+	margin-top: 150px;
+	font-size: 50px;
+	width: 335px;
+	line-height: 45px;
+}
+
+.right-content{
+	position:absolute;
+	margin-left: 200px;
+
+}
+.image{
+	position:absolute;	
+	height:320px;
+	width:320px;
+	top: 200px;
+	left: 820px;
+    border-radius:50%;
+	border:20px solid rgb(192, 187, 187);
+	background-image: url("../images/mobileapp.jpg");
+	background-size: contain;
+}
+h1{
+	margin-top: 120px;
+	margin-left: 150px;
+	color:white;
+	font-size: 45px;
+}
+.para{
+
+	margin-left: 150px;
+	color:white;
+	font-size: 16px;
+	line-height: 20px;
+	width: 400px;
+	float: left;
+}
+.button {
+    background-color: #61D08C;
+    border: none;
+    color: white;
+height: 30px;
+    text-align: center;
+    margin-top: 95px;
+    margin-left: 150px;
+	width:170px;
+	padding-top: 10px;
+	border-radius: 20px;
+	font-size: 20px;
+}
