@@ -1,2 +1,0 @@
-# trainingtask
-training on git
